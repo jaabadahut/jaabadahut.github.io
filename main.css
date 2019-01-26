@@ -224,27 +224,27 @@ footer {
 /* screen responsiveness */
 
 @media screen and (max-width: 800px) {
-    
+
     h5 {
         font-size: 1em;
     }
-    
+
     h2 {
         font-size: 2.5em;
     }
-    
+
     nav {
         font-size: 6.5vw;
     }
-    
+
     .wrapper {
         padding-top: 0px;
     }
-    
+
     #index img {
         display: none;
     }
-    
+
     #index a {
         color: #d299c2;
         height: auto;
@@ -260,15 +260,15 @@ footer {
         left: 0;
         right: 0;
     }
-    
+
     .video iframe {
         display: block;
     }
-    
+
     .colright {
         float: none;
     }
-    
+
     .left {
         width: 100%;
         display: block;
@@ -278,11 +278,11 @@ footer {
         width: 100%;
         display: block;
     }
-    
+
     .proj {
         margin-bottom: 100px;
     }
-    
+
     #about {
         margin-left: 2%;
         margin-right: 2%;
@@ -292,11 +292,11 @@ footer {
 }
 
 @media screen and (max-width: 1200px) {
-    
+
     #index img {
         max-width: 100px;
     }
-    
+
     .colright {
         width: 10%;
     }
@@ -306,49 +306,49 @@ footer {
     body {
         font-size: .5em;
     }
-    
+
     #index img {
         max-width: 170px;
     }
 }
 
 @media screen and (max-width: 1680px) {
-    
+
     body {
         font-size: 1.1em;
         line-height: 1.7em
     }
-    
+
     .wrapper {
         margin: 4% 7% 0 7%;
         padding-bottom: 80px;
     }
-    
+
     #index h1 {
         margin-left: -3%;
     }
-    
+
     #index {
         margin-bottom: 20%;
     }
-    
+
     #index p {
         font-size: 1em;
     }
-    
+
     #index img {
         min-width: 130px;
     }
-    
+
     .colright {
         width: 55%;
     }
-    
+
     #about {
         margin-top: 20%;
         margin-bottom: 8%;
     }
-    
+
     .proj {
         margin-bottom: 100px;
     }
@@ -358,25 +358,25 @@ footer {
     body {
         font-size: 1.7em;
     }
-    
+
     #index img {
         min-width: 200px;
     }
-    
+
     .wrapper {
         padding-bottom: 40px;
         margin-left: 10%;
         margin-right: 10%;
     }
-    
+
     .colright {
         width: 60%;
     }
-    
+
     .proj {
         margin-bottom: 200px;
     }
-    
+
     .text {
         margin-left: 15%;
         margin-right: 15%;
