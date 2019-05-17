@@ -6,11 +6,9 @@ body {
     background:    -moz-linear-gradient(-80deg, #AB64F6, #61DBF7);
     background:         linear-gradient(-150deg, #AB64F6, #61DBF7);*/
     color: white;
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
 }
-
-
 
 
 .wrapper {

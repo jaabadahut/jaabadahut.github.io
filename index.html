@@ -154,12 +154,14 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
 <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
+<script src="https://www.vantajs.com/dist/vanta.fog.min.js"></script>
+
 <!-- B. Instilize vanta js by #id selector -->
 <!-- <script src="three.r92.min.js"></script>
 <script src="vanta.clouds.min.js"></script> -->
 <script>
 VANTA.CLOUDS({
-  el: "#about",
+  el: "#temp",
   backgroundColor: 0x0,
   skyColor: 0x411396,
   cloudColor: 0xde6dd1,
@@ -168,6 +170,11 @@ VANTA.CLOUDS({
   sunGlareColor: 0xfc8a0a,
   sunlightColor: 0xf79b19
 })
+
+// VANTA.FOG({
+//   el: "#temp"
+// })
+
 </script>
 
 
