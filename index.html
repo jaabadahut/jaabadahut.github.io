@@ -10,7 +10,18 @@
 
 </head>
 
+<div class="wrapper" id="about">
+    <div class="text">
+        <p>I am a business student at <a href="https://www.facebook.com/jaabadahut/">Pepperdine</a> in Malibu!<br><br>
+        <!--Curious stalkers can refer to my <a target="_blank" href="bio.html">extended bio</a>.<br><br>-->
+        Currently unavailable for freelance work, but you can contact me at <a href="mailto:marcielacerte@gmail.com">marcielacerte@gmail.com</a>.<br><br>
+        PRESS: <a href="http://www.itsnicethat.com/articles/marcie-lacerte-summer-of-love-animation-240717" target="_blank">It's Nice That</a>, <a href="https://www.cartoonbrew.com/cartoon-brew-pick/short-pick-of-the-day-summer-of-love-by-marcie-lacerte-161625.html">Cartoon Brew</a>, <a href="http://girlsinfilm.net/videos/summer-of-love" target="_blank">Girls in Film</a>, <a href="http://www.sothetheorygoes.com/summer-of-love/" target="_blank">So The Theory Goes</a><br><br>
+
+        <!--<a target="_blank" href="marcielacerte_Resume.pdf">resume</a> /--><a target="_blank" href="http://instagram.com/jaabadahut">instagram</a> / <a target="_blank" href="https://instagram.com/jaabadahut">Instagram</a> / <a target="_blank" href="https://twitter.com/marslizarb">twitter</a> / <a href="https://giphy.com/marslizard">giphy</a></p>
+    </div>
+</div>
 <body id = "temp">
+  <!-- ABOUT ME SECTION -->
 
 
 <!--scrolling script -->
@@ -33,7 +44,7 @@
     <a href="#index"><h1>jaaba da hut</h1></a>
 
     <!-- CHECK HERE TO CHANGE GIFS -->
-    <nav>
+    <!-- <nav>
         <a id="aboutimg" href="#about"><img src="gifs/power.gif"><p>ABOUT</p></a>
         <a id="reelimg" href="#reel"><img src="gifs/ship.gif"><p>DEMO REEL</p></a>
         <a id="shortsimg" href="#vids"><img src="gifs/sport12.gif"><p>PROFESSIONAL</p></a>
@@ -41,7 +52,7 @@
         <a id="projectsimg" href="#projects"><img src="gifs/noodles.gif"><p>PROJECTS</p></a>
 
 
-    </nav>
+    </nav> -->
 </div>
 
 
@@ -135,17 +146,7 @@
 </div>
 
 
-<!-- ABOUT ME SECTION -->
-<div class="wrapper" id="about">
-    <div class="text">
-        <p>I am a animator and video journalist at <a href="https://www.facebook.com/QuartzNewsShow/">Quartz</a> in New York!<br><br>
-        <!--Curious stalkers can refer to my <a target="_blank" href="bio.html">extended bio</a>.<br><br>-->
-        Currently unavailable for freelance work, but you can contact me at <a href="mailto:marcielacerte@gmail.com">marcielacerte@gmail.com</a>.<br><br>
-        PRESS: <a href="http://www.itsnicethat.com/articles/marcie-lacerte-summer-of-love-animation-240717" target="_blank">It's Nice That</a>, <a href="https://www.cartoonbrew.com/cartoon-brew-pick/short-pick-of-the-day-summer-of-love-by-marcie-lacerte-161625.html">Cartoon Brew</a>, <a href="http://girlsinfilm.net/videos/summer-of-love" target="_blank">Girls in Film</a>, <a href="http://www.sothetheorygoes.com/summer-of-love/" target="_blank">So The Theory Goes</a><br><br>
 
-        <!--<a target="_blank" href="marcielacerte_Resume.pdf">resume</a> /--><a target="_blank" href="http://instagram.com/marslizard">instagram</a> / <a target="_blank" href="https://vimeo.com/marcielacerte">vimeo</a> / <a target="_blank" href="https://twitter.com/marslizarb">twitter</a> / <a href="https://giphy.com/marslizard">giphy</a></p>
-    </div>
-</div>
 
  <footer>Jaab Vongkusolkit</footer>
 </body>
@@ -154,10 +155,20 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
 <script src="https://www.vantajs.com/dist/vanta.clouds.min.js"></script>
 <!-- B. Instilize vanta js by #id selector -->
+<!-- <script src="three.r92.min.js"></script>
+<script src="vanta.clouds.min.js"></script> -->
 <script>
 VANTA.CLOUDS({
-  el: "#temp"
-})</script>
+  el: "#about",
+  backgroundColor: 0x0,
+  skyColor: 0x411396,
+  cloudColor: 0xde6dd1,
+  cloudShadowColor: 0x491c61,
+  sunColor: 0x0,
+  sunGlareColor: 0xfc8a0a,
+  sunlightColor: 0xf79b19
+})
+</script>
 
 
 </html>
